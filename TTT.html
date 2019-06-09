@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fonts</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Clicker+Script|Expletus+Sans:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Nanum+Pen+Script" rel="stylesheet">
+
+	
+
+</head>
+	<body>
+		<div class="top">
+			<h1>TTT</h1>
+			<div class="flash">Enter Player Names!</div>
+			<div class="startGame none">START NEW GAME</div>
+			<div class="resetBoard none">Reset Board</div>
+  			<input class="gridSize" type="number" step="1" min="3" max="10" placeholder="Enter Grid Size" >
+		</div>
+		<div class="players">
+			<div class="side">
+				X
+				<input id="p1" type="text" placeholder="Enter P 1 Name"></input>
+				<div id="p1Score">0</div>
+				<div></div>
+			</div>
+			<div class="side">
+				O
+				<input id="p2" type="text" placeholder="Enter P 2 Name"></input>
+				<div id="p2Score">0</div>
+				<div></div>
+			</div>
+		</div>
+		
+	<div class="container">
+		
+		<div class="gameBoard"> 
+			<!-- THIS IS WHERE THE BOXES GO -->
+		</div>
+		
+
+	</div>
+
+	<script src="script2.js"></script>
+	</body>
+</html>
